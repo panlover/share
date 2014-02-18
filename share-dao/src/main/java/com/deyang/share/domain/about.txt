@@ -1,0 +1,56 @@
+JSR-303 原生支持的限制有如下几种 ：
+
+限制 说明
+
+@Null
+
+限制只能为 null
+
+@NotNull
+
+限制必须不为 null
+
+@AssertFalse
+
+限制必须为 false
+
+@AssertTrue
+
+限制必须为 true
+
+@DecimalMax(value)
+
+限制必须为一个不大于指定值的数字
+
+@DecimalMin(value)
+
+限制必须为一个不小于指定值的数字
+
+@Digits(integer,fraction)
+
+限制必须为一个小数，且整数部分的位数不能超过 integer ，小数部分的位数不能超过 fraction
+
+@Future
+
+限制必须是一个将来的日期
+
+@Max(value)
+
+限制必须为一个不大于指定值的数字
+
+@Min(value)
+
+限制必须为一个不小于指定值的数字
+
+@Past
+
+限制必须是一个过去的日期
+
+@Pattern(value)
+
+限制必须符合指定的正则表达式
+
+@Size(max,min)
+
+限制字符长度必须在 min 到 max 之间
+
